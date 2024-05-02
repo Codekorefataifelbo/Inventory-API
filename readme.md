@@ -1,6 +1,6 @@
-# Inventory Management App
+# Inventory App with FastAPI
 
-This is an inventory management application built with FastAPI and SQLAlchemy.
+This is a simple inventory management application built using FastAPI, a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints. The application uses SQLAlchemy as an ORM for database operations.
 
 ## Description
 
@@ -14,9 +14,6 @@ The inventory management app allows users to perform CRUD operations on items in
 - **Delete Item**: Remove an item from the inventory.
 - **Upload Image**: Upload an image for an item.
 
-# Inventory App with FastAPI
-
-This is a simple inventory management application built using FastAPI, a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints. The application uses SQLAlchemy as an ORM for database operations.
 
 ## Prerequisites
 
@@ -42,3 +39,4 @@ To run the application, use the following command:
 
 ```bash
 uvicorn main:app --reload
+```
