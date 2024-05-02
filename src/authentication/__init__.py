@@ -1,0 +1,1 @@
+from authentication.middleware import authenticate
